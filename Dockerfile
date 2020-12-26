@@ -3,9 +3,6 @@ FROM thies88/base-ubuntu
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 
-# variable for version
-ENV REL="bionic"
-
 RUN \
  echo "**** install packages ****" && \
  apt-get update && \
